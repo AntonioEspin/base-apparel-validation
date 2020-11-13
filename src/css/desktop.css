@@ -1,0 +1,36 @@
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url(../../images/bg-pattern-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  width: 100%;
+  padding-left: 150px;
+}
+
+.hero-image {
+  position: absolute;
+  right: 0;
+  width: 45%;
+  height: 100%;
+  background-image: url("../../images/hero-desktop.jpg");
+}
+
+.container {
+  height: auto;
+  margin: auto 0;
+  padding-left: 150px;
+}
+
+.container__title {
+  text-align: initial;
+}
+
+.container p {
+  text-align: initial;
+  line-height: 25px;
+}
