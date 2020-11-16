@@ -15,6 +15,10 @@ html {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.is-active {
+  display: none;
+}
+
 main {
   position: relative;
   width: 100%;
@@ -80,7 +84,7 @@ main {
   height: inherit;
 }
 
-.container__form div {
+.container__form #icon-error {
   position: absolute;
   top: -8px;
   right: 80px;
@@ -112,4 +116,9 @@ main {
   border-radius: 50px;
   background: linear-gradient(hsl(0, 80%, 86%), hsl(0, 74%, 74%));
   border: none;
+}
+
+.container h3 {
+  padding: 10px 0 0 15px;
+  color: var(--soft-red);
 }
